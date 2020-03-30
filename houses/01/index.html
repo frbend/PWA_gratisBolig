@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House 01</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <!--Navigation menu-->
+    <header class="header" id="home">
+        <a href="#brand" class="logo"><img src="../../images/logo_w_name.png" alt="" /></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span
+        ></label>
+        <ul class="menu">
+            <li><a href="#work">Listing</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">FAQ</a></li>
+        </ul>
+    </header>
+    <!--Main section-->
+    <main style="height: 1350px;">
+        <!--Slideshow container-->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img class="img" src="../../images/Picture 1.png" alt="" style="width: 100%;">
+            </div>
+            <div class="mySlides fade">
+                <img class="img" src="../../images/Picture 2.png" alt="" style="width: 100%;">
+            </div>
+            <div class="mySlides fade">
+                <img class="img" src="../../images/Picture 3.png" alt="" style="width: 100%;">
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <script src="../script.js"></script>
+        </div>
+        <br>
+        <div class="info">
+            <div class="right">
+                <h2>Property description</h2>
+                <p class="desc">In the exciting new development on Bjerregårdsvej is this well-appointed Kalmar house with 8 beds plus loft. Listed in 2013 in good maintenance-free materials, including Ivarplank facade cladding. Therefore, there is no need to grasp the
+                    large paintbrush exterior. The house is situated on a serene nature plot at the end of a small path from which a scenic walk through the hilly dune landscape leads the way to the North Sea.
+                </p>
+                <h2>Contains</h2>
+                <p>The house contains a lovely bright living room with a wood burning stove, a loft for kip and an exit to the southwest facing terrace. A nice bright kitchen and good dining area. 4 good bedrooms. Large bathroom with white sanitary, shower,
+                    SPA bath and Sauna. Additional bathroom with white sanitary and shower</p>
+            </div>
+            <div class="left">
+                <ul>
+                    <li>
+                        <h2>Address</h2>
+                        <p>Bjerregårdsvej 36 C</p>
+                        <p>Bjerregård 6960</p>
+                        <p>Hvide Sande</p>
+                        <p>Recreational Property</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h2>Practical Information</h2>
+                        <p>Living area: 120 m²</p>
+                        <p>Rooms: 4</p>
+                        <p>Bathrooms: 2</p>
+                        <p>Built: 2013</p>
+                        <p>Ground area: 1284 m²</p>
+                        <h3>Price: 2.095.000 DKK</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <button class="btn"><h2>CONTACT SELLER</h2></button>
+    </main>
+</body>
+
+</html>
